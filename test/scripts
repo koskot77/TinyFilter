@@ -1,0 +1,1 @@
+/bin/ls *.root | awk 'BEGIN{c=0} {if(c%255==0) print "] );\nfileNames.extend( ["; print "\"file:/tmp/kkotov/"$0"\","; c++}' > & ! ~/CMSSW_5_3_11/src/qwe.py

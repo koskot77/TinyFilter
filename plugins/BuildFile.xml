@@ -1,0 +1,8 @@
+<Flags ADD_SUBDIR="yes" />
+<FLAGS CXXFLAGS="-O3" />
+
+<use name="QWE/TinyFilter" />
+   <library file="*.cc" name="QWETinyFilter">
+       <flags EDM_PLUGIN="1" />
+   </library>
+

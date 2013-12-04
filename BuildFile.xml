@@ -1,0 +1,10 @@
+<Flags ADD_SUBDIR="yes" />
+<FLAGS CXXFLAGS="-O3" />
+<FLAGS CXXFLAGS="-Wno-error=unused-but-set-variable" />
+<FLAGS CXXFLAGS="-Wno-error=reorder" />
+<use name="DataFormats/FWLite" />
+<use name="FWCore/Framework" />
+
+<export>
+</export>
+
